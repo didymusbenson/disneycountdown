@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countdown to Disney!</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/walt-disney-script" rel="stylesheet" />
+</head>
+<body>
+  <div class="background-image"></div>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1 class="title" id="title">Countdown to Disney!</h1>
+
+    <div class="timer-container" id="timer-container">
+      <div class="timer-block">
+        <span class="timer-value" id="days">00</span>
+        <span class="timer-label">Days</span>
+      </div>
+      <div class="timer-separator">:</div>
+      <div class="timer-block">
+        <span class="timer-value" id="hours">00</span>
+        <span class="timer-label">Hours</span>
+      </div>
+      <div class="timer-separator">:</div>
+      <div class="timer-block">
+        <span class="timer-value" id="minutes">00</span>
+        <span class="timer-label">Minutes</span>
+      </div>
+      <div class="timer-separator">:</div>
+      <div class="timer-block">
+        <span class="timer-value" id="seconds">00</span>
+        <span class="timer-label">Seconds</span>
+      </div>
+    </div>
+
+    <div class="sparkles" id="sparkles"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
