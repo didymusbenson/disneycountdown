@@ -1,5 +1,5 @@
 // Target date: March 8, 2026 at midnight
-const TARGET_DATE = new Date('2026-03-08T00:00:00');
+const TARGET_DATE = new Date('2026-03-07T00:00:00');
 
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
